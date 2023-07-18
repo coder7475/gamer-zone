@@ -42,8 +42,8 @@ body {
     justify-content: flex-start;
 }
 .nav-left > img {
-    width: 5.8rem;
-    height: 2.6rem;
+    width: 5.5rem;
+    height: 2.5rem;
     object-fit: cover;
 }
 
@@ -55,7 +55,7 @@ body {
 
 .nav-right ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 32px;
 }
