@@ -1,0 +1,78 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-color {
+    color: #FF42A5;
+}
+
+/* navbar styles */
+.nav-container {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin: 1rem 10%;
+}
+.nav-left {
+    /* width: 50%; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.nav-left, .nav-right {
+    /* border: 2px solid black; */
+    width: 50%;
+}
+
+.nav-right {
+    display: flex;   
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-left > img {
+    width: 5.8rem;
+    height: 2.6rem;
+    object-fit: cover;
+}
+
+.nav-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-right ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+.nav-right li{
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 16.2rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
