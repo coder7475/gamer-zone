@@ -337,14 +337,14 @@ button:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 40px;
 }
 
 .footer-container {
     flex-direction: column;
     background-color: #0B0223;
     color: white;
-    height: auto;
+    height: 40vh;
 }
 
 
@@ -384,4 +384,46 @@ button:hover {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+}
+
+
+/* image overlay */
+
+.video-item {
+    position: relative;
+}
+
+.img-overlay {
+    border: 2px solid #F948B2;
+    background-color: rgba(11, 2, 35, 0.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 90%;
+    opacity: 0;
+    border-radius: 8px;
+    transition: opacity 1s ease-in;
+}
+
+.img-overlay:hover {
+    opacity: 1;
+
+}
+
+.watch {
+    text-align: center;
+    width: 198px;
+    height: 40.448px;
+}
+
+.fa-solid {
+    background-color: #040404;
+    color: #FFF;
 }
