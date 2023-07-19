@@ -223,3 +223,72 @@ body {
     font-size: 48px;
     font-weight: 700;
 }
+
+/* play game container  */
+.play-container {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 7.5rem 8rem;
+}
+
+.play-images {
+    position: relative;
+}
+
+#man {
+    width: 44rem;
+    height: 40rem;
+}
+
+#cat {
+    width: 20rem;
+    /* height: 21rem; */
+    position: relative;
+    left: 30vw;
+    bottom: 23vh;
+}
+
+.play-content {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50vw;
+    height: 80vh;
+    font-size: 48px;
+    font-weight: 700;
+    /* gap: 20px; */
+}
+
+.play-text {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    width: 30rem;
+    margin-top: 30px;
+}
+
+.play-title-1 {
+    background: linear-gradient(180deg, #F948B2 0%, #9b3189 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.play-title {
+    /* text-shadow: 2px 2px 4px #000000; */
+    background: linear-gradient(180deg, #040404 0%, #433c42 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
