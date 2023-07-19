@@ -336,14 +336,15 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .footer-container {
     flex-direction: column;
     background-color: #0B0223;
     color: white;
-    height: 20rem;
+    height: auto;
 }
 
 
@@ -355,7 +356,7 @@ button:hover {
 
 .footer-navigation {
     /* color: white; */
-    gap: 60px;
+    gap: 30px;
     padding: 10px;   
 }
 
