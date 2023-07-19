@@ -71,6 +71,19 @@
     .play-text {
         width: 70vw;
     }
+
+    /* categories section  */
+    .categories-container {
+        display: grid;
+        grid-template-columns: repeat(3, 20vw);
+        margin: 0;
+    }
+    button[type="button"] {
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        height: auto;
+    }
 }
 
 
