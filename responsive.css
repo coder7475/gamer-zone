@@ -1,3 +1,5 @@
+/* mobile view */
+
 @media  screen and (max-width: 578px) {
     .nav-container {
         flex-direction: column;
@@ -18,9 +20,14 @@
         align-items: center;
         margin: 1em auto;
     }
+
 }
 
+
+/* tablet view  */
+
 @media  screen and (max-width: 992px) {
+    /* nav responsiveness */
     .nav-container {
         flex-direction: column;
         margin: 1em auto;
@@ -39,5 +46,25 @@
         justify-content: center;
         align-items: center;
         margin: 1em auto;
+    }
+
+    /* banner responsiveness */
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 10rem;
+    }
+    .banner-left, .banner-right {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* laptop view  */
+
+@media screen and (max-width: 1440px) {
+    .banner-container {
+        margin: 6rem auto;
     }
 }
