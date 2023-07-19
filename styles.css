@@ -193,6 +193,7 @@ body {
 
 .video-item img {
     width: 20vw;
+    border: 0;
     border-radius: 16px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
