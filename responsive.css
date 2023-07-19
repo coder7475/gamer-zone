@@ -83,10 +83,10 @@
         gap: 48px;
     }
     .videos-items img {
-        width: 100%;
+        width: 80vw;
     }
     .video-text {
-        width: 100%;
+        width: 80vw;
     }
 }
 

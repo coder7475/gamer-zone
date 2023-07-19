@@ -20,14 +20,14 @@ body {
 /* navbar styles */
 .nav-container {
     display: flex;
-    /* justify-content: space-around; */
-    /* align-items: center; */
-    margin: 1rem 10%;
+    justify-content: center;
+    align-items: center;
+    /* margin: 1rem 10%; */
 }
 .nav-left {
     /* width: 50%; */
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
@@ -39,7 +39,7 @@ body {
 .nav-right {
     display: flex;   
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .nav-left > img {
     width: 5.5rem;
@@ -84,7 +84,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 4.25rem;
-    margin-right: 8.8em;
+    /* margin-right: 8.8em; */
+    margin-left: 6rem;
+    margin-top: 3rem;
 }
 
 .banner-left {
