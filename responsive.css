@@ -197,7 +197,9 @@
     .footer-container {
         height: auto;
     }
-
+    .img-overlay {
+        width: 100%;
+    }
     #special-ovelay {
         height: 95%;
     }
